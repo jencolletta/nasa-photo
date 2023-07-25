@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from "react"
 import './App.css';
+import HttpClient from "./HttpClient"
+import NasaImage from "./NasaImage"
 
-function App() {
+const App = () => {
+  const [nasaData, setNasaData] = useState([])
+
+  useEffect(() => {
+    HttpClient.getNasaData().then(nasaAPIData => {
+      setNasaData(nasaAPIData.data)
+    })
+  }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header">
+        <h1>NASA PHOTO OF THE DAY</h1>
+      </div>
+      <div className="container">
+        <div className="gallery">
+          {nasaData?.map((nasaImage) => (
+            <NasaImage nasaImage={nasaImage} key={nasaImage.date} />
+          ))
+          }
+        </div>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
