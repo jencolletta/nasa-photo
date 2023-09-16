@@ -1,4 +1,7 @@
 # Nasa Photo of the Day
+Demo: https://jencolletta.github.io/nasa-photo/
+
+<img width="1347" alt="Screen Shot 2023-09-16 at 7 15 40 PM" src="https://github.com/jencolletta/nasa-photo/assets/47162961/b8dd1213-dba4-4200-80fd-bfe9407126f9">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
