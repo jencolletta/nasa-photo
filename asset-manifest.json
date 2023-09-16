@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nasa-photo/static/css/main.f4101f52.css",
-    "main.js": "/nasa-photo/static/js/main.f8a23516.js",
+    "main.js": "/nasa-photo/static/js/main.2cbf34dc.js",
     "static/js/787.37980ae4.chunk.js": "/nasa-photo/static/js/787.37980ae4.chunk.js",
     "index.html": "/nasa-photo/index.html",
     "main.f4101f52.css.map": "/nasa-photo/static/css/main.f4101f52.css.map",
-    "main.f8a23516.js.map": "/nasa-photo/static/js/main.f8a23516.js.map",
+    "main.2cbf34dc.js.map": "/nasa-photo/static/js/main.2cbf34dc.js.map",
     "787.37980ae4.chunk.js.map": "/nasa-photo/static/js/787.37980ae4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4101f52.css",
-    "static/js/main.f8a23516.js"
+    "static/js/main.2cbf34dc.js"
   ]
 }
