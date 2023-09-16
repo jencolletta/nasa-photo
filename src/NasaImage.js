@@ -11,7 +11,7 @@ const NasaImage = ({
   return (
     <div>
       <div className="gallery-item">
-        <img src={url} alt="Nasa Image" className="gallery-image" />
+        <img src={url} alt={title} className="gallery-image" />
         <div class="gallery-item-info">
           <ul>
             <li class="gallery-item-explanation">{explanation}</li>
