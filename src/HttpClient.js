@@ -19,8 +19,10 @@ axios.interceptors.request.use(
   }
 )
 
-export default {
-  getNasaData() {
-    return axios.get(`${nasaEndpoint}planetary/apod`)
-  },
+function getNasaData() {
+  return axios.get(`${nasaEndpoint}planetary/apod`)
 }
+
+const nasaData = { getNasaData }
+
+export default nasaData;
