@@ -1,4 +1,7 @@
 # Nasa Photo of the Day
+
+### This app utilizes NASA API to display  NASA astronomy picture of the day in a grid format using create react app. Frontend is Javascript (React), CSS, and HTML. Backend is Node.js. Hosted on GitHub pages and deployed using GitHub actions. 
+
 Demo: https://jencolletta.github.io/nasa-photo/
 
 <img width="1347" alt="Screen Shot 2023-09-16 at 7 15 40 PM" src="https://github.com/jencolletta/nasa-photo/assets/47162961/b8dd1213-dba4-4200-80fd-bfe9407126f9">
